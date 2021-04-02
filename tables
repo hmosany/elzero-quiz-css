@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css ">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <td>Avtar</td>
+        <td>Group</td>
+        <td>Name</td>
+        <td>kills</td>
+        <td>control</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="breach.png" ></td>
+        <td>controllar</td>
+        <td>Raze</td>
+        <td>22</td>
+        <td>
+          <div class="del">delet</div>
+          <div class="view">view</div>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="cy.png" ></td>
+        <td>defnder</td>
+        <td>killjoy</td>
+        <td>13</td>
+        <td>
+          <div class="del">delet</div>
+          <div class="view">view</div>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="sova.png" ></td>
+        <td rowspan="2">revler</td>
+        <td>sova</td>
+        <td>19</td>
+        <td>
+          <div class="del">delet</div>
+          <div class="view">view</div>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="brim.png" ></td>
+        <td>birmstone</td>
+        <td>7</td>
+        <td>
+          <div class="del">delet</div>
+          <div class="view">view</div>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="jett.png"></td>
+        <td rowspan="2">duelist</td>
+        <td>jett</td>
+        <td>40</td>
+        <td>
+          <div class="del">delet</div>
+          <div class="view">view</div>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="omen.png" ></td>
+        <td>phonix</td>
+        <td>32</td>
+        <td> <div class="del">delet</div>
+          <div class="view">view</div></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
