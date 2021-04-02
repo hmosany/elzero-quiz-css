@@ -1,57 +1,48 @@
+
 body{
-  position: absolute;
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
 }
-.main{
-  width: 400px;
-  height: 100px;
-  background-color: rgba(128, 128, 128, 0.246);
-  position: absolute;
-  top: 250px;
-  left: 300px;
-  text-align: center;
-  border: 2px solid #d90429;
-  border-right:2px solid #2b2d42 ;
-  border-left:2px solid #2b2d42 ;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: monospace;
+table td{
+    background-color: #6d6875;
+    border-spacing: 2px;
+    border: 2px solid #073b4c;
 }
 
-div span{
-  width: 20px;
-  height: 20px;
-  position: absolute;
+td img{
+    width: 200px;
+    height: 200px;
+}
+td{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+}
+table{
+    font-size: 20px;
+    width: 80%;
+    margin: 10px;
+    border-bottom:10px solid #ffd166;
 }
 
-
-.top-left{
-  top: -7px; 
-  left:-15px;
-  background-color: #2b2d42;
-  color: aliceblue;
-  border-right:3px solid #d90429;
+table thead tr td{
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #023047;
 }
 
-.top-right{
-  top: -7px;
-  right: -15px;
-  background-color: #2b2d42 ;
-  color: aliceblue;
-  border-left:3px solid #d90429;
+.del,.view{
+    width: 200px;
+    height: 100px;
+    background-color: #ef476f;
+    margin-left: 2px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
+.view{
+    background-color: #06d6a0;
 }
 
-.bottom-left{
-  top:86px;
-  left: -15px;
-  background-color: #2b2d42 ;
-  color: aliceblue;
-  border-right:3px solid #d90429;
-}
-
-.bottom-right{
-  top: 86px;
-  right: -15px;
-  background-color: #2b2d42 ;
-  color: aliceblue;
-  border-left:3px solid #d90429;
-}
